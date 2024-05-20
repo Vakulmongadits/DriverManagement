@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Dimensions, StyleSheet } from "react-native";
 import MapView, { Marker } from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
-let googleMapKey = "AIzaSyDlmR1DAVjeCoxIsbCbMBQJoKab2sjaDuQ";
+let googleMapKey = "api_key";
 const { width, height } = Dimensions.get('window');
 
 let destinations = [
